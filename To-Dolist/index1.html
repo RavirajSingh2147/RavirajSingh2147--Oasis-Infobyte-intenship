@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Chatbot</title>
+  <style>
+    /* CSS for styling the chatbot interface */
+    .chatbot {
+      width: 400px;
+      height: 600px;
+      margin: 0 auto;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+    }
+    .chatbot-input {
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .chatbot-output {
+      width: 100%;
+      height: 500px;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbot">
+    <div class="chatbot-output"></div>
+    <form>
+      <input class="chatbot-input" type="text" placeholder="Type a message...">
+      <input type="submit">
+    </form>
+  </div>
+</body>
+</html>
